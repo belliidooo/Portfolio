@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alberto Adame Bellido · Desarrollo de aplicaciones web</title>
+  <meta name="description" content="Portfolio de Alberto Adame Bellido, estudiante de Desarrollo de Aplicaciones Web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Principal">
+      <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+      <a href="#tecnologias" data-i18n="nav.tech">Tecnologías</a>
+      <a href="#experiencia" data-i18n="nav.exp">Experiencia</a>
+      <a href="#formacion" data-i18n="nav.edu">Formación</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+      <button type="button" class="lang" id="lang-toggle" aria-label="Switch to English" lang="en">EN</button>
+    </nav>
+    <div class="hero-inner">
+      <h1>Alberto Adame <span>Bellido</span></h1>
+      <p class="role" data-i18n="hero.role">Estudiante de Desarrollo de Aplicaciones Web</p>
+      <p class="lead" data-i18n="hero.lead">Apasionado por aprender y mejorar cada día.</p>
+      <div class="actions">
+        <a class="btn" href="#contacto" data-i18n="hero.contact">Contactar</a>
+        <a class="btn ghost" href="https://github.com/belliidooo" target="_blank" rel="noopener" data-i18n="hero.github">Ver GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2 data-i18n="about.h">Sobre mí</h2>
+      <div class="prose">
+        <p data-i18n="about.p1">Soy estudiante del Grado Superior de Desarrollo de Aplicaciones Web en el I.E.S. Sotero Hernández. Vengo del mundo de los sistemas: dos años como técnico informático me han enseñado a resolver problemas reales y a tratar con clientes.</p>
+        <p data-i18n="about.p2">Ahora combino esa base técnica con el desarrollo web y de aplicaciones, y busco una oportunidad para seguir creciendo en un equipo.</p>
+        <ul class="facts">
+          <li data-i18n="about.f1">Español: nativo</li>
+          <li data-i18n="about.f2">Inglés: nivel intermedio</li>
+          <li data-i18n="about.f3">Carnet de conducir B</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tecnologias">
+      <h2 data-i18n="tech.h">Tecnologías</h2>
+      <div class="stack">
+        <div>
+          <h3 data-i18n="tech.langs">Lenguajes</h3>
+          <ul class="chips"><li>Java</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>SQL</li></ul>
+        </div>
+        <div>
+          <h3 data-i18n="tech.dbs">Bases de datos</h3>
+          <ul class="chips"><li>MariaDB</li><li>MongoDB</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <h2 data-i18n="exp.h">Experiencia</h2>
+      <ol class="timeline">
+        <li>
+          <time data-i18n="exp1.time">Mayo 2023 – Enero 2026</time>
+          <h3 data-i18n="exp1.title">Técnico informático</h3>
+          <p class="where">Microquinto Informática, Dos Hermanas</p>
+          <p data-i18n="exp1.p">Atención al cliente presencial y telemática, reparación de equipos, sustitución de piezas, mantenimiento del taller y asesoramiento informático.</p>
+        </li>
+        <li>
+          <time data-i18n="exp2.time">Julio – Agosto 2022</time>
+          <h3 data-i18n="exp2.title">Ayudante de camarero</h3>
+          <p class="where">El Rey de la Paella, Cádiz</p>
+          <p data-i18n="exp2.p">Servicio en mesa, atención al cliente en sala y por teléfono, y mantenimiento del local.</p>
+        </li>
+        <li>
+          <time data-i18n="exp3.time">Mayo 2022</time>
+          <h3 data-i18n="exp3.title">Ayudante de técnico informático</h3>
+          <p class="where">Link Solution, Parma (Italia)</p>
+          <p data-i18n="exp3.p">Sustitución de piezas y reparación de software.</p>
+        </li>
+        <li>
+          <time data-i18n="exp4.time">Enero – Mayo 2022</time>
+          <h3 data-i18n="exp4.title">Camarero</h3>
+          <p class="where">Club Social Torrequinto, Alcalá de Guadaíra</p>
+          <p data-i18n="exp4.p">Toma de comandas, servicio en mesa, atención al cliente y montaje de terraza.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="formacion">
+      <h2 data-i18n="edu.h">Formación</h2>
+      <ol class="timeline">
+        <li>
+          <time data-i18n="edu1.time">Septiembre 2024 – Actualidad</time>
+          <h3 data-i18n="edu1.title">Grado Superior en Desarrollo de Aplicaciones Web</h3>
+          <p class="where">I.E.S. Sotero Hernández, San Juan de Aznalfarache</p>
+        </li>
+        <li>
+          <time data-i18n="edu2.time">Septiembre 2021 – Junio 2024</time>
+          <h3 data-i18n="edu2.title">Grado Medio en Sistemas Microinformáticos y Redes</h3>
+          <p class="where">C.D.P. Altair, Sevilla</p>
+        </li>
+        <li>
+          <time data-i18n="edu3.time">Complementaria</time>
+          <h3 data-i18n="edu3.title">Curso de Atención al Cliente</h3>
+          <p class="where" data-i18n="edu3.where">Financiado por Microquinto S.L.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="aptitudes">
+      <h2 data-i18n="skills.h">Aptitudes</h2>
+      <ul class="chips">
+        <li data-i18n="skills.1">Responsabilidad</li><li data-i18n="skills.2">Trabajo en equipo</li><li data-i18n="skills.3">Comunicación efectiva</li>
+        <li data-i18n="skills.4">Resolución de problemas</li><li data-i18n="skills.5">Adaptabilidad</li><li data-i18n="skills.6">Organización</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <h2 data-i18n="contact.h">Contacto</h2>
+    <p data-i18n="contact.p">¿Hablamos? Escríbeme o échale un vistazo a mi código.</p>
+    <ul class="links">
+      <li><a href="mailto:trabajosalbertoadame@gmail.com">trabajosalbertoadame@gmail.com</a></li>
+      <li><a href="https://github.com/belliidooo" target="_blank" rel="noopener">github.com/belliidooo</a></li>
+      <li><a href="https://www.linkedin.com/in/alberto-adame-bellido-368401444" target="_blank" rel="noopener">LinkedIn: Alberto Adame Bellido</a></li>
+    </ul>
+    <small>© 2026 Alberto Adame Bellido</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
